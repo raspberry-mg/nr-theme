@@ -1,0 +1,382 @@
+html, body { overflow-x:hidden; }
+
+}
+
+
+
+ @media (min-width:380px) {
+	   .navbar-toggler {
+         margin-left: 4rem;
+    }
+}
+
+@media (width:375px) {
+	   .navbar-toggler {
+         margin-left: 2rem;
+    }
+}
+ @media (max-width:767px) {
+     .maincontact {
+         background:#FFFFFF;
+         padding: 0;
+         margin: 0;
+    }
+     .visibility {
+         display: none;
+    }
+	 
+	  #upbutton {
+         margin-right: 2rem;
+    }
+	 
+	 
+}
+ @media only screen and (max-width: 767px) {
+     .navbar {
+         position:relative;
+    }
+
+}
+ @media only screen and (max-width: 320px) {
+	 
+	 
+	 .callus {
+		font-size: 16px;
+		
+	}
+	
+	  #upbutton {
+         margin-right: 1rem;
+    }
+	 
+     .navbar {
+         position:relative;
+    }
+   
+     .gmap {
+         width: 300px;
+         padding-right: 7px;
+    }
+     .img-fluid.logo {
+         width: 70%;
+         height: auto;
+    }
+    
+     #container {
+         display: flex;
+    }
+     .navbar-toggler {
+         height: 40%;
+         margin-top: 1rem;
+    }
+	 
+}
+
+
+
+ .img-fluid.logo {
+     max-width: 100%;
+     height: auto;
+     transition: 0.4s;
+}
+ hr {
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+     border: 0;
+     border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+ .hr-title {
+     margin-top: 0.7rem;
+     margin-bottom: 2rem;
+     max-width: 6rem;
+     border: 0;
+     border-top: 4px solid rgb(105, 231, 133);
+}
+ .hr-title2 {
+     margin-top: 0.9rem;
+     margin-bottom: 2rem;
+     max-width: 6rem;
+	 text-align: left;
+     border: 0;
+     border-top: 4px solid rgb(105, 231, 133);
+}
+ .hr-title3 {
+     margin-top: 0.9rem;
+     margin-bottom: 2rem;
+     max-width: 6rem;
+	 text-align: left;
+     border: 0;
+     border-top: 4px solid rgb(105, 231, 133);
+}
+
+
+ .img-fluid.logo {
+     max-width: 100%;
+     height: auto;
+     transition: 0.1s;
+}
+
+ .about {
+     margin-top: 8%;
+}
+
+.about2 {
+	margin-top: 4%;
+}
+
+.about2 h2 {
+	margin-left: 2rem;
+	margin-bottom: 2rem;
+}
+
+ .whyus {
+     margin-top: 0%;
+}
+ .container-fluid-footer {
+     background-color: #183F64;
+}
+ .container-fluid-copywrite {
+     background-color: #0B1E2F;
+}
+ .sprite {
+     background-image: url(../images/spritesheet.png);
+     background-repeat: no-repeat;
+     display: block;
+     position: absolute;
+}
+ .sprite-email {
+     width: 24px;
+     height: 24px;
+     background-position: -5px -5px;
+     margin-left: 2.6rem;
+}
+ .sprite-phone-call {
+     width: 24px;
+     height: 24px;
+     background-position: -5px -39px;
+     margin-top: 1.9rem;
+     margin-left: 2.6rem;
+}
+ .sprite-skype {
+     width: 24px;
+     height: 24px;
+     background-position: -5px -73px;
+     margin-left: 2.6rem;
+     margin-bottom: 2rem;
+}
+ .info {
+     margin-left: 5rem;
+     color: aliceblue;
+     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+     font-weight: 600;
+}
+ .info a {
+     color: aliceblue;
+}
+ .info2 {
+     margin-left: 5rem;
+     color: black;
+     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+     font-weight: 600;
+}
+ .info2 a {
+     color: black;
+}
+ .info3 {
+     color: black;
+     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+     font-weight: 600;
+}
+ .info4 {
+     margin-left: 5rem;
+     color: black;
+     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+     font-weight: 600;
+}
+ .copywriteinfo {
+     color: white;
+     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+     font-size: 12px;
+     white-space: nowrap;
+     margin-right: 2.7rem;
+     margin-top: 1rem;
+}
+ .copywriteinfo a {
+     margin-right: 1rem;
+     font-size: 10px;
+}
+
+ .myprofile {
+     color: white;
+     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+     margin-bottom: 1rem;
+     font-size: 12px;
+     margin-top: 2rem;
+	 
+}
+ .myprofile a {
+     font-weight: 600;
+     color: #69E785;
+   
+}
+ .maincontact {
+     margin-right: 0.6rem;
+     margin-top: 1rem;
+     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+     color: black;
+     font-weight: 600;
+     font-size: 14px;
+     white-space: nowrap;
+}
+ #upbutton {
+     background: url("../images/up.png") no-repeat top left;
+     height: 60px;
+     width: 60px;
+     bottom: 30px;
+     right: 30px;
+     cursor: pointer;
+     display: none;
+     position: fixed;
+     z-index: 999;
+}
+ .btn-more {
+     color: #69E785;
+     background-color: white;
+     border-color: #69E785;
+     border-width: 0.15em;
+     width: 12rem;
+     height: 3rem;
+}
+ .btn-more:hover {
+     color: #fff;
+     background-color: #69E785;
+     border-color: #69E785;
+     border-width: 0.15em;
+     width: 12rem;
+     height: 3rem;
+}
+ .btn-expert {
+     position: absolute;
+     z-index: 1;
+     color: #fff;
+      background-color: #69E785;
+     border-color: #69E785;
+     width: 20rem;
+     height: 4rem;
+     margin-top: 6rem;
+	 display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ .btn-expert:hover {
+	 background-color: #183F64;
+     border-color: #183F64;
+     color: #fff;
+}
+
+ .faqtitle {
+     color: white;
+     font-size: 18px;
+}
+ .mytitle {
+     text-align: center;
+}
+ .callblock {
+     margin-top: 4rem;
+}
+ .callus {
+     position: absolute;
+     z-index: 1;
+     color: #ffffff;
+}
+ .card-callus {
+     width: 24rem;
+     height: 31rem;
+     margin-top: 2rem;
+     margin-bottom: 3rem;
+     border: none;
+}
+ .form-control {
+     margin-left: 2rem;
+     margin-right: 2rem;
+     width: 21rem;
+}
+ .pagecontact {
+     text-align: left;
+}
+ .wpcf7 input[type="text"] {
+}
+ .wpcf7 textarea {
+     height: 7rem;
+}
+ .submit-cf {
+     width: 150px;
+    /*ширина блока*/
+     height: 110px;
+     margin-left: 2rem;
+}
+ .submit-cf input {
+     width: 150px;
+     height: 40px;
+     color: #fff;
+     background-color: #28a745;
+     border-color: #28a745;
+     border-radius: 11px;
+}
+ .submit-cf input:active {
+     background-color: #218838;
+}
+ .submit-cf input:hover {
+     background-color: #1c7430;
+}
+ .wpcf7-response-output {
+     width: 22rem !important;
+     font-size:14px;
+}
+ .wpcf7-not-valid-tip {
+     font-size: 14px;
+     transform: none !important;
+}
+ .maincontact a {
+     color: black;
+}
+ .recaptcha {
+     margin-left: 2rem;
+     margin-bottom: 1rem;
+}
+ .recaptcha p {
+     margin-left: 2rem;
+     margin-top: 2rem;
+}
+
+
+.scrollbar {
+margin-left: 30px;
+float: left;
+height: 400px;
+width: 450px;
+background: #fff;
+overflow-y: scroll;
+margin-bottom: 25px;
+}
+.force-overflow {
+min-height: 450px;
+}
+
+.scrollbar-primary::-webkit-scrollbar {
+width: 8px;
+background-color: #F5F5F5; }
+
+.scrollbar-primary::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #68E785; }
+
+.scrollbar-primary {
+scrollbar-color: #68E785 #F5F5F5;
+}
+
+.scrollbar-primary-services {
+	height: 500px;
+}
+ 
