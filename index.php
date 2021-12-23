@@ -14,15 +14,15 @@
 
 get_header();
 
-get_template_part( 'slider' );
+get_template_part( 'template-parts/slider' );
 
-get_template_part( 'services' );
+get_template_part( 'template-parts/services' );
 
-get_template_part( 'about' );
+get_template_part( 'template-parts/about' );
 
-get_template_part( 'faq' );
+get_template_part( 'template-parts/faq' );
 
-get_template_part( 'banner' ); ?>
+get_template_part( 'template-parts/banner' ); ?>
 
 <div id="upbutton"></div>
 
