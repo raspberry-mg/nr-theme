@@ -130,12 +130,51 @@ function nr_theme_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'nr_theme_scripts' );
 
-/* Theme setup */
+
+/**
+ * Theme setup.
+ */
 add_action( 'after_setup_theme', 'wpt_setup' );
 if ( ! function_exists( 'wpt_setup' ) ):
     function wpt_setup() {
         register_nav_menu( 'primary', __( 'Primary navigation', 'Noutrem' ) );
     } endif;
 
-
+/**
+ * Add Bootstrap dropdown nav
+ */
 require_once('class-wp-bootstrap-navwalker.php');
+
+/**
+ * include Custom Post Type 'Services'
+ */
+include( 'cpt_services.php' );
+
+/**
+ * include Custom Post Type 'FAQ'
+ */
+include( 'cpt_accordion_FAQ.php' );
+
+/**
+ * Include metaboxes
+ */
+include('metabox_services.php');
+
+include('metabox_color_label.php');
+
+/**
+ * Connect ColorPicker for metabox
+ */
+function wpse_80236_Colorpicker(){
+    wp_enqueue_style( 'wp-color-picker');
+    //
+    wp_enqueue_script( 'wp-color-picker');
+}
+add_action('admin_enqueue_scripts', 'wpse_80236_Colorpicker');
+
+
+
+
+
+
+
