@@ -1,7 +1,7 @@
 <?php
 
 function wdm_add_meta_box() {
-    $screens = array( 'servives' );
+    $screens = array( 'services' );
     add_meta_box('wdm_sectionid', 'Color label', 'wdm_meta_box_callback', $screens);
 }
 
