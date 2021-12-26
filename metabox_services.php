@@ -4,7 +4,7 @@ add_action("add_meta_boxes", "add_custom_meta_box");
 
 function add_custom_meta_box()
 {
-    $screens = array( 'servives' );
+    $screens = array( 'services' );
     add_meta_box("demo-meta-box", "Service type", "custom_meta_box_markup", $screens, "side", "high", null);
 }
 

@@ -29,7 +29,7 @@ $args = array(
 'supports' => array('title','editor','thumbnail', 'excerpt'),
 );
 
-register_post_type( 'servives', $args );
+register_post_type( 'services', $args );
 }
 
 
